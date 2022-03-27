@@ -1,0 +1,42 @@
+.pstyle {
+  color: #666666;
+}
+
+.hstyle {
+  color: #ff7588;
+  font-weight: 700;
+}
+
+.iconstyle {
+  width: 27px;
+  height: 33px;
+  margin-top: 40%;
+}
+
+.img_sec {
+  width: 400px;
+  height: 495px;
+}
+
+.h1Style {
+  font-size: 50px;
+  color: #000;
+}
+
+@media screen and (max-width: 1199px) {
+  .h1Style {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .img_sec {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img_sec {
+    display: none;
+  }
+}

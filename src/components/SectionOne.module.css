@@ -1,0 +1,67 @@
+.custom_shape_divider_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom_shape_divider_bottom svg {
+  position: relative;
+  display: block;
+  width: calc(111% + 1.3px);
+  height: 70px;
+}
+
+.custom_shape_divider_bottom .shape_fill {
+  fill: #fff;
+}
+
+.wave {
+  position: relative;
+  background: #ff4363;
+}
+
+h1,
+p {
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.whole_wrapper {
+  position: relative;
+  background: #ff4363;
+}
+
+.btn_1 {
+  margin-right: 30px;
+  height: 55px;
+  width: 150px;
+  padding: 10px;
+  background: #fff;
+  color: #ff4363;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .vv {
+    text-align: center;
+  }
+
+  .download_sec {
+    margin-bottom: 100px;
+  }
+
+  .bttn , .disc_sec {
+    text-align: center;
+  }
+
+
+}

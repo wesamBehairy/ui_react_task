@@ -1,0 +1,62 @@
+.iconstyle {
+  width: 25px;
+  height: 33px;
+}
+.btn_sec {
+  background: #ff4363;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+  width: 125px;
+}
+.pstyle {
+  color: #666666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.li_style {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.hStyle {
+  font-size: 55px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1199px) {
+  .design_sec {
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .hStyle {
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hStyle{
+    font-size: 34px;
+
+  }
+  .pstyle{
+    font-size: 16px;
+
+  }
+  .li_style{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+
+@media screen and (max-width: 575px) {
+  .style_sec {
+    display: none;
+  }
+}

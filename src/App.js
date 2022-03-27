@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Fragment } from 'react';
+import SectionFour from './components/SectionFour';
+import SectionThree from './components/SectionThree';
+import SectionTwo from "./components/SectionTwo";
+import SectionFive from './components/SectionFive';
+import SectionSix from './components/SectionSix';
+import SectionSeven from './components/SectionSeven';
+import SectionEight from './components/SectionEight';
+import Footer from './components/Footer';
+import SectionOne from './components/SectionOne';
+import "./components/Fontawesome/index";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+
+      <div>
+        <SectionOne></SectionOne>
+      </div>
+      
+      <Fragment>
+        <SectionTwo></SectionTwo>
+      </Fragment>
+      <Fragment>
+        <SectionThree></SectionThree>
+      </Fragment>
+      <Fragment>
+        <SectionFour></SectionFour>
+      </Fragment>
+      <Fragment>
+        <SectionFive></SectionFive>
+      </Fragment>
+      <Fragment>
+        <SectionSix></SectionSix>
+      </Fragment>
+      <Fragment>
+        <SectionSeven></SectionSeven>
+      </Fragment>
+      <Fragment>
+        <SectionEight></SectionEight>
+      </Fragment>
+      <Fragment>
+        <Footer></Footer>
+      </Fragment>
+
     </div>
   );
 }
